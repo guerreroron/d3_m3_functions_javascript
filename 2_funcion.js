@@ -2,13 +2,14 @@
 // Desafío Latam
 // G54 - FullStack - Javascript
 
-// Ronald Guerrero 19/12/23
+// Ronald Guerrero 21/12/23
 
 /* Declaración de función */
-let suma = function(a,b){
+
+const suma = function(a,b){
     return a+b
 }
 
 /* Arrow function */
 
-let suma = (a,b) => { return a+b }
+const suma = (a,b) => a + b
